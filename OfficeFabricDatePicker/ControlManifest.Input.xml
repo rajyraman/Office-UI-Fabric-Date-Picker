@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="RYR" constructor="OfficeFabricDatePicker" version="1.0.0" display-name-key="Office Fabric UI DatePicker" description-key="Use Office Fabric UI DatePicker instead of the default Dynamics 365 DatePicker" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="inputDate" display-name-key="Date" description-key="Date field that shows the Office Fabric UI Date Picker" of-type="DateAndTime.DateOnly" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+    <!-- <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage> -->
+  </control>
+</manifest>
