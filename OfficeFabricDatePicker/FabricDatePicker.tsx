@@ -43,7 +43,6 @@ export class FabricDatePicker extends React.Component<IDatePickerProps, IDatePic
             <div>
               <DatePicker
                 strings={DayPickerStrings}
-                allowTextInput={true}
                 firstWeekOfYear={1}
                 placeholder="Select a date..."
                 ariaLabel="Select a date"
