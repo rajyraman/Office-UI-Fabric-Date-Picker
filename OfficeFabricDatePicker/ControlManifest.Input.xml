@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="RYR" constructor="OfficeFabricDatePicker" version="1.1.0" display-name-key="Office Fabric UI DatePicker" description-key="Use Office Fabric UI DatePicker instead of the default Dynamics 365 DatePicker" control-type="standard">
+  <control namespace="RYR" constructor="OfficeFabricDatePicker" version="1.1.1" display-name-key="Office Fabric UI DatePicker" description-key="Use Office Fabric UI DatePicker instead of the default Dynamics 365 DatePicker" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="inputDate" display-name-key="Date" description-key="Date field that shows the Office Fabric UI Date Picker" of-type="DateAndTime.DateOnly" usage="bound" required="true" />
     <resources>
